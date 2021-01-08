@@ -1,0 +1,17 @@
+.header__title {
+	font-family: "Yeseva One", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 52px;
+	line-height: 60px;
+	color: #FFFFFF;
+}
+
+.section__title {
+	font-family: "Yeseva One", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+}
