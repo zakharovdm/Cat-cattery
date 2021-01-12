@@ -1,3 +1,6 @@
+
+/* Шапка сайта*/
+
 .header__title {
 	font-family: "Yeseva One", "Arial", sans-serif;
 	font-style: normal;
@@ -7,20 +10,34 @@
 	color: #FFFFFF;
 }
 
-.section__title {
-	font-family: "Yeseva One", "Arial", sans-serif;
+.header__city,
+.header__lead,
+.header__btn {
+	font-family: "Roboto", "Arial", sans-serif;
 	font-style: normal;
 	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	color: #A07B50;
+}
+
+.header__btn {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	color: #FFFFFF;
+}
+
+
+
+ .section__title{
 	font-size: 36px;
 	line-height: 42px;
 	color: #FFFFFF;
 }
 
 .section__lead {
-	font-family: "Roboto", "Arial", sans-serif;
-	font-style: normal;
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 26px;
-	color: #A07B50;
 }
