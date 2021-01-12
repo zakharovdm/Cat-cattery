@@ -28,16 +28,22 @@
 	color: #FFFFFF;
 }
 
-
+/*Основное содержимое*/
 
  .section__title{
+ 	font-family: "Yeseva One", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: normal;
 	font-size: 36px;
 	line-height: 42px;
 	color: #FFFFFF;
 }
 
 .section__lead {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-style: normal;
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 26px;
+	color: #A07B50;
 }
