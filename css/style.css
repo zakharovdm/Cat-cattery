@@ -84,3 +84,15 @@ body {
 	line-height: 16px;
 	color: #FFFFFF;
 }
+
+/* section breed-features */
+
+.breed-features__list {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
+
