@@ -125,3 +125,27 @@ body {
 	line-height: 23px;
 	color: #FFFFFF;		
 }
+
+/* section team */
+
+.team__item {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: #A07B50;	
+}
+
+.team__item-jobTitle {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+}
+
+.team__item p {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 22px;
+	color: #FFFFFF;	
+}
