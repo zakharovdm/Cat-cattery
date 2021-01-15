@@ -1,3 +1,17 @@
+body {
+	background-color: #1F1C1D;
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
 
 /* Шапка сайта*/
 
@@ -46,4 +60,27 @@
 	font-size: 16px;
 	line-height: 26px;
 	color: #A07B50;
+}
+
+/*section pets*/
+
+.pets__tab,
+.pets__btn {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	color: rgba(255, 255, 255, 0.2);s
+}
+
+.pets__tab--active {
+	color: #FFFFFF;
+}
+
+.pets__btn {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 16px;
+	color: #FFFFFF;
 }
