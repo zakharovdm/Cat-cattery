@@ -106,3 +106,22 @@ body {
 	line-height: 26px;
 	color: #FFFFFF;	
 }
+
+/* section care */
+
+.care__link-title,
+.care__link-content {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+	color: #A07B50;	
+}
+
+.care__link-content {
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 23px;
+	color: #FFFFFF;		
+}
