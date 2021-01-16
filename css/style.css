@@ -1,16 +1,47 @@
+html {
+	box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 body {
+	margin: 0;
+  	padding: 0;
+  	font-size: 11px;
+  	line-height: 16px;
+  	font-weight: 400;
+  	color: #ffffff;
 	background-color: #1F1C1D;
 }
 
-.visually-hidden {
-	position: absolute !important;
-	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-	clip: rect(1px, 1px, 1px, 1px);
-	padding:0 !important;
-	border:0 !important;
-	height: 1px !important; 
-	width: 1px !important; 
-	overflow: hidden;
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+	position: absolute;
+  	overflow: hidden;
+  	clip: rect(0, 0, 0, 0);
+  	width: 1px;
+  	height: 1px;
+  	margin: -1px;
+  	padding: 0;
+  	white-space: nowrap;
+  	border: 0;
+  	clip-path: inset(100%);
+}
+
+.show {
+  display: block;
 }
 
 /* header */
@@ -44,25 +75,33 @@ body {
 
 /*main*/
 
- .section__title{
+ .section__title {
  	font-family: "Yeseva One", "Arial", sans-serif;
+ 	margin: 0;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 36px;
 	line-height: 42px;
 	color: #FFFFFF;
+	text-align: center;
 }
 
 .section__lead {
 	font-family: "Roboto", "Arial", sans-serif;
+	margin: 0;
 	font-style: normal;
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 26px;
 	color: #A07B50;
+	text-align: center;
 }
 
 /*section pets*/
+
+.pets {
+  background-color: #1f1c1d;
+}
 
 .pets__tab,
 .pets__btn {
@@ -85,7 +124,13 @@ body {
 	color: #FFFFFF;
 }
 
+
+
 /* section breed-features */
+
+.breed-features {
+  background-color: #1f1c1d;
+}
 
 .breed-features__list {
 	font-family: "Roboto", "Arial", sans-serif;
@@ -95,6 +140,8 @@ body {
 	line-height: 21px;
 	color: #FFFFFF;
 }
+
+
 
 /* section advantages */
 
@@ -152,6 +199,10 @@ body {
 
 /* section faq */
 
+.faq {
+  background-color: #1f1c1d;
+}
+
 .faq__question,
 .faq__answer {
 	font-family: "Roboto", "Arial", sans-serif;
@@ -169,7 +220,13 @@ body {
 	line-height: 154%;
 }
 
+
+
 /* section reviews */
+
+.reviews {
+  background-color: #1f1c1d;
+}
 
 .reviews__item-title,
 blockquote p,
