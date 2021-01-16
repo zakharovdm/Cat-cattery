@@ -149,3 +149,23 @@ body {
 	line-height: 22px;
 	color: #FFFFFF;	
 }
+
+/* section faq */
+
+.faq__question,
+.faq__answer {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #DDD0C3;
+	background-color: #1F1C1D;
+}
+
+.faq__answer {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 154%;
+	color: #DDD0C3;	
+}
