@@ -167,5 +167,30 @@ body {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 154%;
-	color: #DDD0C3;	
+}
+
+/* section reviews */
+
+.reviews__item-title,
+blockquote p,
+time {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+blockquote p {
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 23px;
+}
+
+time {
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 19px;
+	color: rgba(160, 123, 80, 0.94);
 }
