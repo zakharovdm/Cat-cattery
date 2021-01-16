@@ -13,7 +13,7 @@ body {
 	overflow: hidden;
 }
 
-/* Шапка сайта*/
+/* header */
 
 .header__title {
 	font-family: "Yeseva One", "Arial", sans-serif;
@@ -42,7 +42,7 @@ body {
 	color: #FFFFFF;
 }
 
-/*Основное содержимое*/
+/*main*/
 
  .section__title{
  	font-family: "Yeseva One", "Arial", sans-serif;
@@ -193,4 +193,20 @@ time {
 	font-size: 12px;
 	line-height: 19px;
 	color: rgba(160, 123, 80, 0.94);
+}
+
+/* footer */
+
+.footer__link {
+	font-family: "Roboto", "Arial", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 27px;
+	color: rgba(253, 242, 230, 0.83);
+}
+
+.footer__link--tel {
+	font-weight: bold;
+	color: #FDF2E6;
 }
